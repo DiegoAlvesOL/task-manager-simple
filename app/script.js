@@ -1,2 +1,7 @@
-console.log("Hello from the external world in Javascript ")
-console.log("Hello Dona Aline")
+console.log("Backend branch loaded");
+
+const button = document.getElementById("button01");
+
+button.addEventListener("click", () => {
+    alert("Task completed! Notification sent.");
+});
